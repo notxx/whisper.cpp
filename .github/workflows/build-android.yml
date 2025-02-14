@@ -70,7 +70,7 @@ jobs:
         ./gradlew assembleRelease --no-daemon
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: whisper-android-example-${{github.event.inputs.language}}-${{github.event.inputs.model}}.zip
         path: examples/whisper.android/app/build/outputs/apk
