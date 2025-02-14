@@ -10,16 +10,19 @@ on:
         default: 'tiny.bin'
         type: choice
         options:
+          - tiny.en.bin         
+          - tiny.bin
+          - small.en.bin
+          - small.bin
           - base.bin
           - base.en.bin
-          - large-v1.bin
-          - large.bin
           - medium.bin
           - medium.en.bin
-          - small.bin
-          - small.en.bin
-          - tiny.bin
-          - tiny.en.bin         
+          - large.bin
+          - large-v1.bin
+          - large-v2.bin
+          - large-v3.bin
+          - large-v3-turbo-q5_0.bin
       language:
         description: 'Language'
         default: en
